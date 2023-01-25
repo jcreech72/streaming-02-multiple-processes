@@ -2,7 +2,7 @@
 
 > Multiple processes accessing a shared resource concurrently
 
-## Oveview
+## Overview
 
 This example starts up a shared database and three different processes.
 
@@ -24,14 +24,14 @@ Executing multiple_processes.py script.
 Read the output. Read the code. 
 Try to figure out what's going on. 
 
-1. What libraries did we import?
-1. Where do we set the task_duration?
-1. How many functions are defined? 
-1. What are the function names? 
-1. In general, what does each function do? 
-1. Where does the execution begin?
-1. How many processes do we start?
-1. How many records does each process insert?
+1. What libraries did we import? sqlite3, time, multiprocessing, os, datetime, platform, sys
+1. Where do we set the task_duration? in the variable called task_duration
+1. How many functions are defined? 7
+1. What are the function names? create_table(), drop_table(), insert_pet (process, name, breed), process_one(), process_two(), process_three(), recreate_database()
+1. In general, what does each function do? Organizes the code into defined variables or input fields. The code can be reused.
+1. Where does the execution begin? at the if __name__ == "__main__": statement
+1. How many processes do we start? 3 processes are started if the task duration = 0
+1. How many records does each process insert? Each process enters 2 records for a total of 6 records since there are 3 processes.
 
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 
@@ -44,12 +44,14 @@ They insert a record, and get out of the database quickly.
 In general, we're successful and six new records get inserted. 
 
 ## Second Run
+Changed the time to 3 - deleted table, created the table. The first process ran several times and eventually deadlocked the database.
 
 For the second run, modify the task_duration to make each task take 3 seconds. Run it again. 
 With the longer tasks, we now get into trouble - 
 one process will have the database open and be working on it - 
 then when another process tries to do the same, it can't and 
 we end up with an error. 
+
 
 ## Document Results After Each Run
 
@@ -95,15 +97,15 @@ Do a web search to find helpful videos on anything that seems confusing.
 Python has pretty helpful error messages. 
 When you get an error, read them carefully. 
 
-- What error do you get?
-- Can you tell what line it was executing when it failed?
+- What error do you get? Database is locked ; it also gave the line where it was trying to insert the pet name and what process ; may be helpful in debugging.
+- Can you tell what line it was executing when it failed? Yesm see above.
 
 
 ## Database Is Locked Error
 
 Do a web search on the sqlite3 'database is locked' error.
 
-- What do you learn?
+- What do you learn? OperationalError: database is locked errors indicate that your application is experiencing more concurrency than sqlite can handle in default configuration. This error means that one thread or process has an exclusive lock on the database connection and another thread timed out waiting for the lock the be released.
 - Once a process fails, it crashes the main process and everything stops. 
 
 ## Deadlock
