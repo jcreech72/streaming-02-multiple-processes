@@ -2,5 +2,6 @@
     "isort.interpreter": [
         "C:\\Users\\julie\\AppData\\Roaming\\Code\\CachedExtensionVSIXs"
     ],
-    "python.defaultInterpreterPath": "C:\\Users\\julie\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
+    "python.defaultInterpreterPath": "C:\\Users\\julie\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "python.analysis.typeCheckingMode": "basic"
 }
