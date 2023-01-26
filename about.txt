@@ -5,7 +5,7 @@
 
  Welcome! 
 
- It's 2023-01-24 at 09:52 PM
+ It's 2023-01-23 at 09:33 PM
 
  This file is running on:    nt Windows 10
  
@@ -25,19 +25,19 @@
  
  The Current Working Directory (CWD) where this command was launched is:
 
- C:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment\streaming-02-multiple-processes\streaming-02-multiple-processes
+ C:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment
  
  The absolute path to the data directory is:
 
- C:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment\streaming-02-multiple-processes\streaming-02-multiple-processes\
+ C:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment\
  
  The absolute path to this source directory is:
 
- c:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment\streaming-02-multiple-processes\streaming-02-multiple-processes
+ c:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment\streaming-02-multiple-processes
  
  The absolute path to this file is:
 
- c:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment\streaming-02-multiple-processes\streaming-02-multiple-processes\about.py
+ c:\Users\julie\OneDrive\Documents\NW Missouri\Streaming Spring 2023\Module 2\Mod 2 Assignment\streaming-02-multiple-processes\about.py
  
 ==============================================================
 ==============================================================

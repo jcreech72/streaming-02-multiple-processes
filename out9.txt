@@ -1,0 +1,24 @@
+1,Ferrell LLC,1990,Plastics,3498
+10,Gaines Inc,1997,Outsourcing / Offshoring,9698
+100,Watkins-Kaiser,2009,Financial Services,2785
+11,Kidd Group,2001,Primary / Secondary Education,7473
+12,Crane-Clarke,2014,Food / Beverages,9011
+13,"Keller, Campos and Black",2020,Museums / Institutions,2862
+14,Glover-Pope,2013,Medical Practice,9079
+15,Pacheco-Spears,1984,Maritime,769
+16,Hodge-Ayers,1990,Facilities Services,8508
+17,"Bowers, Guerra and Krause",1972,Primary / Secondary Education,6986
+18,Mckenzie-Melton,1998,Investment Management / Hedge Fund / Private Equity,4589
+19,Branch-Mann,1999,Architecture / Planning,7961
+2,"Mckinney, Riley and Day",2015,Glass / Ceramics / Concrete,4952
+20,Weiss and Sons,2011,Plastics,5984
+21,"Velez, Payne and Coffey",1986,Wholesale,5010
+22,Harrell LLC,2018,Construction,2185
+23,"Eaton, Reynolds and Vargas",2014,Luxury Goods / Jewelry,8987
+24,Robbins-Cummings,1991,Pharmaceuticals,5038
+25,Jenkins Inc,2002,Insurance,1215
+26,"Greene, Benjamin and Novak",2012,Museums / Institutions,4941
+27,"Dickson, Richmond and Clay",1980,Real Estate / Mortgage,3122
+28,Prince-David,1970,Banking / Mortgage,1046
+29,Ayala LLC,2021,Legal Services,7664
+3,Hester Ltd,1971,Public Safety,5287
